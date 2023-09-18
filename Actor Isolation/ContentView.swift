@@ -33,8 +33,16 @@ struct ContentView: View {
                         .compactMap { $0.title }
                         .joined(separator: ",")
                     
+                    let techer2Subjects = teachers[teacher2]?
+                        .compactMap { $0.title }
+                        .joined (separator: ",")
+                    
                     if let subjects = teacher1Subjects {
                         print("Teacher 1 teaches: \(subjects)")
+                    }
+                    
+                    if let tsubjects = techer2Subjects {
+                        print("Teacher 2 teaches: \(tsubjects)")
                     }
                     
                 }
