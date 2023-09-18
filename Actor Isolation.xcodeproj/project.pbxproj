@@ -13,6 +13,7 @@
 		EB6F3BFB2AB8D967000636DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6F3BFA2AB8D967000636DA /* Preview Assets.xcassets */; };
 		EB6F3C032AB8E052000636DA /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F3C022AB8E052000636DA /* Teacher.swift */; };
 		EB6F3C052AB8E08D000636DA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F3C042AB8E08D000636DA /* Student.swift */; };
+		EB6F3C072AB8E57F000636DA /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F3C062AB8E57F000636DA /* Subject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB6F3BFA2AB8D967000636DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6F3C022AB8E052000636DA /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		EB6F3C042AB8E08D000636DA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		EB6F3C062AB8E57F000636DA /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				EB6F3C022AB8E052000636DA /* Teacher.swift */,
 				EB6F3C042AB8E08D000636DA /* Student.swift */,
+				EB6F3C062AB8E57F000636DA /* Subject.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6F3C032AB8E052000636DA /* Teacher.swift in Sources */,
+				EB6F3C072AB8E57F000636DA /* Subject.swift in Sources */,
 				EB6F3BF52AB8D967000636DA /* ContentView.swift in Sources */,
 				EB6F3BF32AB8D967000636DA /* Actor_IsolationApp.swift in Sources */,
 				EB6F3C052AB8E08D000636DA /* Student.swift in Sources */,
